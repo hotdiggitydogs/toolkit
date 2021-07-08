@@ -68,4 +68,3 @@ colmat(x)
 \seealso{
 \code{\link{makecolors}}, \code{\link[graphics]{par}}
 }
-

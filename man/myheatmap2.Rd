@@ -28,4 +28,3 @@ color scheme to blue-black-yellow. Other arguments can be passed onto
 \seealso{
 \code{\link[gplots]{heatmap.2}}
 }
-

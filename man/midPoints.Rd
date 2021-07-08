@@ -23,4 +23,3 @@ Calculates the cumulative midpoints of a numeric vector. To
 midPoints(rep(1, 10))
 
 }
-

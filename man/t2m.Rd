@@ -23,4 +23,3 @@ x1 <- sample(c('a','b'),20,replace = TRUE)
 x2 <- sample(c('0','1'),20,replace = TRUE)
 t2m(table(x1,x2))
 }
-

@@ -63,4 +63,3 @@ colnames(dat) <- paste('Var',1:4,sep='_')
 summarizett(dat, pheno)
 
 }
-

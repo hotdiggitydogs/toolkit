@@ -40,4 +40,3 @@ legend('topright', legend = names(colset$Legend), col = colset$Legend, pch = 16)
 pchset <- makecolors(x, pal = c(16,17,18))$Colors
 plot(xnum, col = colset$Colors, pch = pchset)
 }
-

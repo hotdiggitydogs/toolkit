@@ -25,4 +25,3 @@ color scheme to blue-black-yellow. Other arguments can be passed onto
 \code{heatmap.3}. Most commonly used are \code{ColSideCol} and 
 \code{RowSideCol}.
 }
-

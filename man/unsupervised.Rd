@@ -5,14 +5,18 @@
 \title{Unsupervised heatmap by standard deviation}
 \usage{
 unsupervised(x, n, col = colorRampPalette(c("blue", "black", "yellow"))(50),
-  main = NULL, ...)
+  get_hm = FALSE, main = NULL, ...)
 }
 \arguments{
 \item{x}{Numeric matrix with samples in columns and features in rows.}
 
-\item{n}{Number of features}
+\item{n}{Number of features.}
 
 \item{col}{Color for heatmap. Defaults to blue-black-yellow color scheme.}
+
+\item{get_hm}{Logical vector whether to return heatmap with feature names.}
+
+\item{main}{Title.}
 
 \item{...}{Passes arguments to \code{heatmap.2}}
 }
@@ -21,7 +25,7 @@ A heatmap.2 object and plot.
 }
 \description{
 \code{unsupervised} Performs unsupervised clustering on the most
-   variable features.
+   variable features. Also returns the names of the features.
 }
 \details{
 Finds the most variable features across all samples by standard
@@ -31,4 +35,3 @@ Finds the most variable features across all samples by standard
 \seealso{
 \code{\link[gplots]{heatmap.2}}
 }
-
